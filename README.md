@@ -1,5 +1,6 @@
 This repository is currently under active development. We are continuously working on improving the visual presentation and optimizing the code. If you have any questions, please feel free to open an issue.
 
+## :boom: This work has been accepted for publication in KDD-2026.
 
 ## Overall framework of the AutoBacktest.
 
@@ -106,3 +107,24 @@ bash run.sh qwen3-235b 4 http://localhost:8000 sk-1234567890abcdef
 ```
 
 This will start the prediction using the `qwen3-235b` model with 4 worker processes, connecting to `http://localhost:8000` using the provided API key.
+
+
+
+
+
+# Citation
+If you found this work useful for you, please consider citing it.
+```
+@inproceedings{
+kdd2026backtestbench,
+title={{BacktestBench}: Benchmarking Large Language Models for Automated Quantitative Strategy Backtesting},
+author={Zhensheng Wang and Wenmian Yang and Qingtai Wu and Lequan Ma and Yiquan Zhang and Weijia Jia},
+booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (KDD 2026), August 9--13, 2026, Jeju Island, Republic of Korea},
+year={2026},
+isbn = {979-8-4007-2259-2/2026/08},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+doi={10.1145/3770855.3817460},
+url={https://arxiv.org/abs/2605.17937}
+}
+```
